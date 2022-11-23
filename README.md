@@ -24,20 +24,19 @@ You are required to design and build a CI/CD pipeline for the application using 
 and frameworks of your choice.
 
 As regards the CI part of the pipeline:
-    1. Include some unit testing (aim for code coverage of at least 80%)
-    2. Include some BDD type testing
-    3. Include code analysis
-    4. Include security features (e.g. checking for dependencies with vulnerabilities
+1. Include some unit testing (aim for code coverage of at least 80%)
+2. Include some BDD type testing
+3. Include code analysis
+4. Include security features (e.g. checking for dependencies with vulnerabilities
     etc.)
 
 In the CD part of the pipeline:
-    1. Implement a release management strategy (e.g. QA, staging etc.) and
-    deployment strategy (e.g. blue/green or canary etc.)
-    2. Include some E2E testing
-    3. Includes some performance testing
-    4. Includes some security features (e.g. pen testing)
-    5. Implement continuous telemetry monitoring if appropriate
-    6. Implement authorisation gates if appropriate
+1. Implement a release management strategy (e.g. QA, staging etc.) and deployment strategy (e.g. blue/green or canary etc.)
+2. Include some E2E testing
+3. Includes some performance testing
+4. Includes some security features (e.g. pen testing)
+5. Implement continuous telemetry monitoring if appropriate
+6. Implement authorisation gates if appropriate
 
 For the whole CI/CD pipeline include some security tasks. Any bugs or code quality
 issues should be addressed and the code re-factored.
@@ -46,7 +45,7 @@ Add one new feature (with appropriate tests) in the application. The new feature
 be max 30 lines of code. Use a branching strategy like the Git Feature Branch workflow.
 
 Deliverables:
-    1. Video demo of pipeline running / description of pipeline (max 15 minutes)
-    2. Report describing the:
-        a. CI/CD pipeline (including tests etc.), design philosophy
-        b. The new feature (e.g. a user story)
+1. Video demo of pipeline running / description of pipeline (max 15 minutes)
+2. Report describing the:
+- CI/CD pipeline (including tests etc.), design philosophy 
+- The new feature (e.g. a user story)
