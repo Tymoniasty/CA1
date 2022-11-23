@@ -11,7 +11,7 @@ A blood pressure reading can be used to categorise the blood pressure of the pat
 low blood pressure, ideal blood pressure, pre-high blood pressure, or high blood
 pressure. This figure below shows how the category can be calculated:
 
-<figure.png>
+![image](figure.png)
 
 In the above figure consider the lower limits to be inclusive in the category e.g. a
 systolic value of 140 or greater indicates high blood pressure.
