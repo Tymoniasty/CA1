@@ -18,6 +18,7 @@ systolic value of 140 or greater indicates high blood pressure.
 Source code for a simple Blood Pressure Category calculator implemented in ASP.Net
 
 Core Razor pages can be seen in this public Git repo https://github.com/gclynch/bp
+
 The code is incomplete with respect to the logic to calculate the blood pressure
 category:
 - ~~complete this code.~~
