@@ -21,8 +21,8 @@ Core Razor pages can be seen in this public Git repo https://github.com/gclynch/
 The code is incomplete with respect to the logic to calculate the blood pressure
 category:
 - ~~complete this code.~~
-Add telemetry tracking to the application.
-You are required to design and build a CI/CD pipeline for the application using tools
+- Add telemetry tracking to the application.
+- You are required to design and build a CI/CD pipeline for the application using tools
 and frameworks of your choice.
 
 As regards the CI part of the pipeline:
