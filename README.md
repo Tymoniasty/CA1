@@ -29,7 +29,7 @@ and frameworks of your choice.
 As regards the CI part of the pipeline:
 1. Include some unit testing (aim for code coverage of at least 80%)
 2. Include some BDD type testing
-3. Include code analysis
+3. ~~Include code analysis~~ sonarcloud?
 4. Include security features (e.g. checking for dependencies with vulnerabilities
     etc.)
 
