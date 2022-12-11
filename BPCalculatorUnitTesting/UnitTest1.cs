@@ -1,16 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BPCalculator;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace BPCalculator.Tests
+namespace BPCalculatorUnitTesting
 {
     [TestClass()]
-    public class BloodPressureTests
+    public class BloodPresureTests
     {
         [TestMethod()]
-       
         public void Test_High()
         {
             //if Systolic = 150 and Diastolic = 95 then it should be 'High' pressure
