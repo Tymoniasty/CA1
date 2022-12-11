@@ -9,7 +9,8 @@ namespace BPCalculator
         [Display(Name="Low Blood Pressure")] Low,
         [Display(Name="Ideal Blood Pressure")]  Ideal,
         [Display(Name="Pre-High Blood Pressure")] PreHigh,
-        [Display(Name ="High Blood Pressure")]  High
+        [Display(Name ="High Blood Pressure")]  High,
+        [Display(Name ="No Values provided!")] none
     };
 
     public class BloodPressure
@@ -51,6 +52,10 @@ namespace BPCalculator
                 else if (Systolic >= SystolicMin && Systolic < 90 && Diastolic >= DiastolicMin && Diastolic < 60)
                 {   //Low result
                     return BPCategory.Low;
+                }
+                else
+                {
+                    return BPCategory.none;
                 }
             }
         }
