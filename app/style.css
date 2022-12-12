@@ -1,0 +1,19 @@
+.inputField 
+{
+    width: 150px; 
+    display: inline;
+}
+* {
+    margin: 10;
+    padding: 10;
+}
+.image {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
