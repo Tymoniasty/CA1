@@ -30,16 +30,16 @@ As regards the CI part of the pipeline:
 1. Include some unit testing (aim for code coverage of at least 80%)
 2. Include some BDD type testing
 3. ~~Include code analysis~~ sonarcloud?
-4. Include security features (e.g. checking for dependencies with vulnerabilities
-    etc.)
+4. ~~Include security features (e.g. checking for dependencies with vulnerabilities
+    etc.)~~ OWASP dependency check
 
 In the CD part of the pipeline:
 1. Implement a release management strategy (e.g. QA, staging etc.) and deployment strategy (e.g. blue/green or canary etc.)
 2. Include some E2E testing
 3. Includes some performance testing
 4. Includes some security features (e.g. pen testing)
-5. Implement continuous telemetry monitoring if appropriate
-6. Implement authorisation gates if appropriate
+5. ~~Implement continuous telemetry monitoring if appropriate~~ Azure 
+6. ~~Implement authorisation gates if appropriate~~ Manual deployment for continuous delivery 
 
 For the whole CI/CD pipeline include some security tasks. Any bugs or code quality
 issues should be addressed and the code re-factored.
