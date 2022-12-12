@@ -47,6 +47,7 @@ issues should be addressed and the code re-factored.
 Add one new feature (with appropriate tests) in the application. The new feature should
 be max 30 lines of code. Use a branching strategy like the Git Feature Branch workflow.
 
+
 Deliverables:
 1. Video demo of pipeline running / description of pipeline (max 15 minutes)
 2. Report describing the:
